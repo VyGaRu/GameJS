@@ -1,7 +1,5 @@
 # GameJS
-<<<<<<< HEAD
-Simple game on Java Script
-=======
+
 Simple game on Java Script 1
 
 
