@@ -1,4 +1,28 @@
-h1 
-{
+body {
+  background-image: url("../img/fonHead.jpg");
+}
+
+img {
+    display: none;
+}
+
+h1 {
+text-align: center;
+font-style: italic;
+background-color: #f7bc50;
+
+}
+p {
+ text-align: left;
+}
+
+div {
   text-align: center;
+  background-color: green;
+}
+
+canvas {
+  background-color: #62b9e0;
+  border-color: #846de0;
+  border-style: solid;
 }

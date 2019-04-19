@@ -3,11 +3,32 @@
 <head>
   <title> Zero or Plus </title>
   <script type="text/javascript" src="js/app.js"></script>
-  <link type="text/css" href="css/app.css"></link>
+  <link type="text/css" rel="stylesheet" href="css/app.css"></link>
+  <img id="cross" src="img/cross.png" />
+  <img id="zero" src="img/zero.png" />
+  <img src="img/fonHead.jpg" />
 </head>
 
 <body>
- <h1> Простые крестики и нолики</h>
+<h1 id="head">Простые крестики и нолики</h1>
+<p align=left>
+    <div>
+         <canvas id="id0" height="100" width="100" onclick="clickBlock(event, id)"> </canvas>
+         <canvas id="id1" height="100" width="100" onclick="clickBlock(event, id)"> </canvas>
+         <canvas id="id2" height="100" width="100" onclick="clickBlock(event, id)"> </canvas>
+    </div>
+    <div>
+         <canvas id="id3" height="100" width="100" onclick="clickBlock(event, id)"></canvas>
+         <canvas id="id4" height="100" width="100" onclick="clickBlock(event, id)"> </canvas>
+         <canvas id="id5" height="100" width="100" onclick="clickBlock(event, id)"> </canvas>
+    </div>
+    <div>
+         <canvas id="id6" height="100" width="100" onclick="clickBlock(event, id)"> </canvas>
+         <canvas id="id7" height="100" width="100" onclick="clickBlock(event, id)"> </canvas>
+         <canvas id="id8" height="100" width="100" onclick="clickBlock(event, id)"> </canvas>
+    </div>
+</p>
+
 
 
 </body>
