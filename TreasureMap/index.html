@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html> 
+ <head> 
+  <title> Treasure Map  </title> 
+   
+   <img class="imgNone" id="map"    src="img/treasureMap.jpg">
+   <img class="imgNone" id="chest"  src="img/mini_chest1.jpg">
+   <img class="imgNone" id="pirats" src="img/pirats.jpg">
+
+   <link rel="stylesheet" type="text/css" href="css/app.css">
+   <script type="text/javascript" src="js/app.js"></script>
+ </head>
+
+ <body id="body" onload="loadPage()" background="Red">
+
+ <div> <h1 id="header-logo" class="header-logo">Карта сокровищЪ</h1>  </div>
+
+ <div> 
+  <h2 id="score" class="header-csore" > <canvas id="chestCanv" width="70px" height="70px" align="center"></canvas> Попытка : 0   </h2>
+ <div align="center"> 
+  <button id="b_save_Treasure" onclick="saveTreasure()" border-radius="30" > Спратять сундук</button> 
+  <button id="b_view_Treasure" onclick="showTreasure()" border-radius="30" > Показать сундук</button> 
+</div>
+          
+
+ </div>
+
+ <div align="center"> <canvas id="canvas" onclick="choosePlase(event)" width="1024" height="768"  background-size="100%" > </canvas>  </div>
+
+ </body>
+
+
+</html>

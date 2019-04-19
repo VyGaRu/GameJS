@@ -1,0 +1,41 @@
+.imgNone {
+	display: none;
+}
+
+#header-logo {
+	font-size: 50px;
+	text-align: center;
+}
+
+#score {
+	font-size: 30px;
+	text-align: center;
+}
+
+#body {
+
+	background-image: url("../img/pirats.jpg");
+    background-size: 100%
+}
+
+#canvas {
+	background-image: url("../img/treasureMap.jpg");
+    background-size: 100%
+}
+
+
+#b_save_Treasure{
+    background: green; /* Цвет фона */
+    border: 1px solid #7a7b7e; /* Параметры рамки */
+    width: 80px; /* Ширина кнопки */
+    height: 60px; /* Высота */
+    border-radius: 30px;
+   }
+
+#b_view_Treasure{
+    background: green; /* Цвет фона */
+    border: 1px solid #7a7b7e; /* Параметры рамки */
+    width: 80px; /* Ширина кнопки */
+    height: 60px; /* Высота */
+    border-radius: 30px;
+   }
